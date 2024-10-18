@@ -25,6 +25,7 @@ class Employee extends Person {
 const p=new Person("Alice",25);
 p.greet();
 const e=new Employee("Bob",30,"Manager");
+e.jobGreet();
 
 window.Person = Person;
 window.Employee = Employee;
